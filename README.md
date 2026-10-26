@@ -1,6 +1,6 @@
 # TrafficModelMar
 
-Private research repository for traffic forecasting experiments. Every model in
+Research repository for traffic forecasting experiments. Every model in
 this repository is packaged as a drop-in module for
 [BasicTS](https://github.com/GestaltCogTeam/BasicTS) [1], which supplies the data
 pipeline, the runner, the scaler and the evaluation metrics.
@@ -303,7 +303,9 @@ Benchmarks Track. arXiv:2306.08259 · Code: <https://github.com/liuxu77/LargeST>
 
 ## License and attribution
 
-Private repository, all rights reserved.
+No open-source license is attached. The code is publicly readable for reference
+and review, but all rights are reserved by the author — please open an issue
+before reusing any part of it.
 
 `arch/losses.py` is adapted from the author's `Traffic_Model` code and keeps the
 original loss logic, rewritten to the BasicTS keyword signature
