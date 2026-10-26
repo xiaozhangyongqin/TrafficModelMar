@@ -1,0 +1,17 @@
+# 统一换行符，避免 Windows/Linux 协作时整文件 diff
+* text=auto eol=lf
+
+# 二进制文件不转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.npy binary
+*.npz binary
+*.pkl binary
+*.pt binary
+*.pth binary
+*.zip binary
+*.gz binary
